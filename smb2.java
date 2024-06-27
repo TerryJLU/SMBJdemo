@@ -31,10 +31,10 @@ import java.io.StringReader;
 public class SMB2 {
     public static void main(String[] args) {
 
-        String username = "jlu";
-        String password = "boygirl";
+        String username = "username"; //用户名
+        String password = "password"; //密码
         String ipAddress = "127.0.0.1";
-        String shareName = "test2";
+        String shareName = "test2"; //the share folder name ,共享文件夹的名字
         SMBClient client;
         Session session;
          Connection connection;
